@@ -49,7 +49,7 @@ const data = [
     link: 'https://scholar.google.com/citations',
     label: 'Google Scholar',
     icon: faGoogle,
-  }
+  },
 ];
 
 export default data;

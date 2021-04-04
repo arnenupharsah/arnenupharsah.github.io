@@ -29,12 +29,12 @@ const data = [
     label: 'Countries visited',
     value: 53,
     link:
-      'https://www.google.com/maps/d/embed?mid=1iBBTscqateQ93pWFVfHCUZXoDu8&z=2',
+      'https://www.google.com/maps/d/u/0/embed?mid=1kqL9OzBL550zAxY1zlpk_58cwihJLKvT',
   },
   {
     key: 'location',
     label: 'Current city',
-    value: 'New York, NY',
+    value: 'Bangalore, India',
   },
 ];
 

@@ -11,22 +11,22 @@ import { faGoogle } from '@fortawesome/free-brands-svg-icons/faGoogle';
 
 const data = [
   {
-    link: 'https://github.com/arnenupharsah',
+    link: 'https://github.com/aulicksah',
     label: 'Github',
     icon: faGithub,
   },
   {
-    link: 'https://www.facebook.com/arnenupharsah',
+    link: 'https://www.facebook.com/aulicksah',
     label: 'Facebook',
     icon: faFacebookF,
   },
   {
-    link: 'https://www.instagram.com/arnenupharsah/',
+    link: 'https://www.instagram.com/aulicksah/',
     label: 'Instagram',
     icon: faInstagram,
   },
   {
-    link: 'https://www.linkedin.com/in/arnenupharsah/',
+    link: 'https://www.linkedin.com/in/aulicksah/',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },

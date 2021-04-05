@@ -1,11 +1,11 @@
 {
-  "name": "arnenupharsah.github.io",
+  "name": "aulicksah.github.io",
   "version": "3.0.1",
-  "homepage": "https://arnenupharsah.github.io/",
+  "homepage": "https://aulicksah.github.io/",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arnenupharsah/arnenupharsah.github.io.git"
+    "url": "https://github.com/aulicksah/aulicksah.github.io.git"
   },
   "scripts": {
     "build": "rimraf ./build && react-scripts build",

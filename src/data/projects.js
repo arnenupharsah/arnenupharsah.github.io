@@ -7,8 +7,7 @@ const data = [
     image: '/images/projects/nearestdollar.jpg',
     date: 'Oct 2019 - May 2020',
     desc:
-      'Tour Recommendation System to generate an itinerary wherein we need to provide information like startingpoint and no. of places to visit, to create a personalized itinerary based on user’s interest using severalalgorithms such as POI Popularity, POI Ranking and Markov Chain'
-      ,
+      'Tour Recommendation System to generate an itinerary wherein we need to provide information like startingpoint and no. of places to visit, to create a personalized itinerary based on user’s interest using severalalgorithms such as POI Popularity, POI Ranking and Markov Chain',
   },
   {
     title: 'Streamz(Video Portal)',

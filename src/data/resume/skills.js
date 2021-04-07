@@ -28,11 +28,6 @@ const skills = [
     category: ['Web Development', 'Tools'],
   },
   {
-    title: 'Heroku',
-    competency: 2,
-    category: ['Web Development', 'Tools'],
-  },
-  {
     title: 'MongoDB',
     competency: 3,
     category: ['Web Development', 'Databases'],
@@ -58,43 +53,13 @@ const skills = [
     category: ['Data Science'],
   },
   {
-    title: 'Express.JS',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'D3',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'Flask',
-    competency: 2,
-    category: ['Web Development', 'Python'],
-  },
-  {
-    title: 'Git/Mercurial',
+    title: 'Git',
     competency: 3,
     category: ['Tools'],
   },
   {
-    title: 'Kubernetes',
-    competency: 2,
-    category: ['Tools', 'Data Engineering'],
-  },
-  {
-    title: 'Google Cloud Compute',
-    competency: 2,
-    category: ['Tools', 'Web Development'],
-  },
-  {
     title: 'Numpy',
     competency: 3,
-    category: ['Data Science', 'Data Engineering', 'Python'],
-  },
-  {
-    title: 'Numba',
-    competency: 2,
     category: ['Data Science', 'Data Engineering', 'Python'],
   },
   {
@@ -128,21 +93,6 @@ const skills = [
     category: ['Languages'],
   },
   {
-    title: 'Julia',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'MATLAB',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'R',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
     title: 'Data Visualization',
     competency: 3,
     category: ['Data Science', 'Javascript'],
@@ -166,26 +116,6 @@ const skills = [
     title: 'Scikit-Learn',
     competency: 4,
     category: ['Data Engineering', 'Data Science', 'Python'],
-  },
-  {
-    title: 'Hadoop',
-    competency: 2,
-    category: ['Data Engineering', 'Data Science'],
-  },
-  {
-    title: 'Spark',
-    competency: 2,
-    category: ['Data Engineering', 'Data Science'],
-  },
-  {
-    title: 'Dagster',
-    competency: 2,
-    category: ['Data Engineering', 'Python'],
-  },
-  {
-    title: 'Mypy',
-    competency: 3,
-    category: ['Python'],
   },
   {
     title: 'Pylint',

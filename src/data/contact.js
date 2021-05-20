@@ -46,7 +46,7 @@ const data = [
     icon: faEnvelope,
   },
   {
-    link: 'https://scholar.google.com/citations',
+    link: 'https://scholar.google.com/citations?hl=en&user=QnIZwewAAAAJ',
     label: 'Google Scholar',
     icon: faGoogle,
   },

@@ -5,9 +5,10 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Analytics from '../components/Template/Analytics';
 import Navigation from '../components/Template/Navigation';
 import Footer from '../components/Template/Footer';
+import SideBar from '../components/Template/SideBar';
 import ScrollToTop from '../components/Template/ScrollToTop';
 
-const Main = (props) => (
+const ResumeLayout = (props) => (
   <HelmetProvider>
     <Analytics />
     <ScrollToTop />
@@ -20,6 +21,7 @@ const Main = (props) => (
       <div id="main">
         {props.children}
       </div>
+      {props.fullPage ? null : <SideBar />}
     </div>
 
     <div id="main">
@@ -28,19 +30,21 @@ const Main = (props) => (
   </HelmetProvider>
 );
 
-Main.propTypes = {
+ResumeLayout.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node,
   ]),
+  fullPage: PropTypes.bool,
   title: PropTypes.string,
   description: PropTypes.string,
 };
 
-Main.defaultProps = {
+ResumeLayout.defaultProps = {
   children: null,
+  fullPage: false,
   title: null,
   description: "Aulick Sah's personal website.",
 };
 
-export default Main;
+export default ResumeLayout;

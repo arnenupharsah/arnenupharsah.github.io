@@ -19,6 +19,8 @@ const Contact = () => (
       <div className="email-at">
         <p>Feel free to get in touch. You can email me at: </p>
         <EmailLink />
+        OR
+        <p>Book a 30-min slot to talk to me: <a href="https://calendly.com/arnenupharsah/talktoaulick">Calendly Meeting</a></p>
       </div>
       <ContactIcons />
     </article>

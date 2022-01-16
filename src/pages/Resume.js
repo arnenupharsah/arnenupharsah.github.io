@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Main from '../layouts/Main';
+import ResumeLayout from '../layouts/ResumeLayout';
 
 import Education from '../components/Resume/Education';
 import Experience from '../components/Resume/Experience';
@@ -23,7 +23,7 @@ const sections = [
 ];
 
 const Resume = () => (
-  <Main
+  <ResumeLayout
     title="Resume"
     description="Aulick Sah's Resume. Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet Labs, and Facebook."
   >
@@ -47,7 +47,7 @@ const Resume = () => (
       <References />
 
     </article>
-  </Main>
+  </ResumeLayout>
 );
 
 export default Resume;

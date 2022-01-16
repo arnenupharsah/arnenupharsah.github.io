@@ -8,6 +8,7 @@ import { render, screen } from '@testing-library/react';
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
+import Home from '../pages/Home';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
 import Index from '../pages/Index';
@@ -21,6 +22,11 @@ const pages = [
     route: '/',
     heading: 'About this site',
     component: Index,
+  },
+  {
+    route: '/home',
+    heading: 'About me',
+    component: Home,
   },
   {
     route: '/about',
@@ -46,6 +52,16 @@ const pages = [
     route: '/resume',
     heading: 'Resume',
     component: Resume,
+  },
+  {
+    route: '/newsletter',
+    heading: 'Newsletter',
+    component: Newsletter,
+  },
+  {
+    route: '/recommendations',
+    heading: 'Recommendations',
+    component: Newsletter,
   },
 ];
 

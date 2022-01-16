@@ -1,0 +1,46 @@
+.hero {
+  display: flex;
+  padding: 0 0 0 4em;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("../assets/landing1.jpg");
+}
+.part1 {
+  min-height: 100vh;
+  padding: 2em;
+  font-family: "Karla", sans-serif;
+}
+.part2 {
+  min-height: 100vh;
+  padding: 2em 2em 6em 2em;
+  font-family: "Karla", sans-serif;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.part3 {
+  min-height: 100vh;
+  padding: 2em;
+  font-family: "Karla", sans-serif;
+}
+.upcoming {
+  display: flex;
+  margin-bottom: 1em;
+}
+.date {
+  padding: 1rem;
+}
+.eventText {
+  padding: 1rem;
+  flex: 1;
+}

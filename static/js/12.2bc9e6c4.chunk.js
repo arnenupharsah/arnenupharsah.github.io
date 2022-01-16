@@ -1,0 +1,2 @@
+(this["webpackJsonpaulicksah.github.io"]=this["webpackJsonpaulicksah.github.io"]||[]).push([[12],{261:function(t,e,i){"use strict";i.r(e);var s=i(1),r=(i(0),i(62));e.default=function(){return Object(s.jsx)(r.a,{title:"Newsletter",description:"Aulick's Explorations",children:Object(s.jsx)("iframe",{title:"Newsletter",src:"https://aulicksah.substack.com/embed",width:"100%",height:"320",style:{border:"1px solid #EEE",background:"white"},frameBorder:"0",scrolling:"no"})})}}}]);
+//# sourceMappingURL=12.2bc9e6c4.chunk.js.map

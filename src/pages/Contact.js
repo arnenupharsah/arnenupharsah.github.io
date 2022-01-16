@@ -17,10 +17,12 @@ const Contact = () => (
         </div>
       </header>
       <div className="email-at">
-        <p>Feel free to get in touch. You can email me at: </p>
+        <p>Got ideas? Suggestions? Or feedback? Hit me up!</p>
+        <p>Mail me at: </p>
         <EmailLink />
         OR
-        <p>Book a 30-min slot to talk to me: <a href="https://calendly.com/arnenupharsah/talktoaulick">Calendly Meeting</a></p>
+        <p>Book a 30-min slot to talk to me:</p>
+        <a href="https://calendly.com/arnenupharsah/talktoaulick">Calendly Meeting</a>
       </div>
       <ContactIcons />
     </article>

@@ -17,6 +17,10 @@ const routes = [
     path: '/projects',
   },
   {
+    label: 'Mirror Blog',
+    path: '/blog',
+  },
+  {
     label: 'Newsletter',
     path: '/newsletter',
   },
